@@ -38,10 +38,13 @@ ul.addEventListener("click", function(event) {
     event.target.classList.toggle("done");
 });
 
+//Add item after clicking on enter
 button.addEventListener("click", addListAfterClick);
 
+//Add item after pressing enter
 input.addEventListener("keypress", addListAfterKeypress);
 
+//Delete item after clicking on delete item
 delbuttons.forEach(function(element) {
     element.addEventListener("click", deleteParentNode);
 });
