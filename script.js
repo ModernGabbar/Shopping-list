@@ -1,6 +1,6 @@
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
-var delbuttons = document.querySelectorAll("remove-item");
+var delbuttons = document.querySelectorAll(".remove-item");
 var ul = document.getElementById("list");
 
 function addListElement() {
